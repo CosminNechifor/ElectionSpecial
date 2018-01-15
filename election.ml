@@ -89,5 +89,4 @@ val voturi = getVotes(List.nth(database, 0));
 (* val isp = isPartyP ("Green" database); *)
 
 val sorted = sort database;
-
-(* val membersOf = filter (isPartyP ("Green" database)); *)
+val filtredList = filter (isPartyP "Independent") database;
